@@ -1,0 +1,49 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+ul, li {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  background-color: #3B3B3B;
+  height: 300px;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  margin-bottom: 20px;
+}
+.container .box {
+  height: 100%;
+  font-size: 20px;
+}
+.container .red_box {
+  width: 50%;
+  background-color: red;
+}
+.container .blue_box {
+  flex: 1;
+  background-color: blue;
+}
+
+.container.ct2 .red_box {
+  width: 40%;
+}
+
+.container.ct3 .red_box {
+  width: 200px;
+}
+
+.container.ct4 .red_box {
+  width: initial;
+  flex: 1;
+}
+.container.ct4 .gray_box {
+  flex: 1;
+  background-color: gray;
+}/*# sourceMappingURL=day6.css.map */

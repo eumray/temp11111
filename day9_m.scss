@@ -1,0 +1,39 @@
+
+@media (max-width: 1000px) {
+    .mobile_none{
+        display:none;
+    }
+   .header{
+    
+    top:6px;
+    left:15px;
+    right:15px;
+    .logo{
+        transform: translate(-15px,-5px);
+        img{
+            width:92px;
+        }
+    }
+    .menu{
+        font-size:17px;
+    }
+    .lan_select{
+        font-size:17px;
+    }
+   }
+   .concept_items{
+    padding:70px 15px;
+    flex-direction: column;
+    gap:30px;
+    .concept_item{
+        width:100%;
+        .concept_img{
+            img{
+                height:200px;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+    }
+   }
+}

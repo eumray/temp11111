@@ -1,0 +1,58 @@
+body{
+    margin:0px; // 바깥 여백 제거
+    padding:0px; // 안쪽 여백 제거
+    font-family: "Roboto", sans-serif; // 글꼴 설정
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+ul,li{
+    list-style: none; // 리스트 점 제거
+    margin: 0px; // 바깥 여백 제거
+    padding: 0px; // 안쪽 여백 제거
+}
+
+
+.logo{
+    position: fixed;
+    left:30px;
+    top:16px;
+}
+.menu{
+    position: fixed;
+    right:30px;
+    top:16px;
+    display:flex;
+    gap:25px;
+    font-size:22px;
+    font-weight:500;
+}
+
+.main_copy{
+    font-size:5.2vw;
+    line-height:5.2vw;
+    margin-top:170px;
+    margin-left:30px;
+    .margin_t{
+        display:inline-block;
+        width:200px;
+    }
+
+}
+
+.company_container{
+    display:flex;
+    justify-content: space-between;
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:135px;
+    font-size:24px;
+    font-weight:500;
+    text-transform: uppercase;
+}
+.main_img{
+    margin-top:16px;
+    img{
+        width:100%;
+    }
+}

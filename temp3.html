@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 600px;
+            height: 200px;
+            border: 1px solid black;
+            position: relative;
+            color: #FFF;
+
+            text-align: center;
+            font-family: Roboto;
+            font-size: 280px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: -8.4px;
+        }
+
+        .container .box {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: absolute;
+            left: 50px;
+            top: 0px;
+
+
+
+        }
+
+        .box2 {
+            width: 50px;
+            height: 50px;
+            background-color: blue;
+            position: fixed;
+            left: 100px;
+            top: 100px;
+            z-index: 9999;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box2"></div>
+        <div class="box"></div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt facilis voluptate eius nemo quibusdam itaque
+        voluptatum vel. Tempora, aliquid quaerat! Possimus est eum ducimus ad itaque porro error maiores voluptates?
+
+    </div>
+    <div class="container">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt facilis voluptate eius nemo quibusdam itaque
+        voluptatum vel. Tempora, aliquid quaerat! Possimus est eum ducimus ad itaque porro error maiores voluptates?
+
+        <div class="box"></div>
+    </div>
+    <div class="container">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt facilis voluptate eius nemo quibusdam itaque
+        voluptatum vel. Tempora, aliquid quaerat! Possimus est eum ducimus ad itaque porro error maiores voluptates?
+
+        <div class="box"></div>
+    </div>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+</body>
+
+</html>

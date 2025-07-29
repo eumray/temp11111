@@ -1,0 +1,56 @@
+body{
+    margin:0px; // 바깥 여백 제거
+    padding:0px; // 안쪽 여백 제거
+    font-family: "Roboto", sans-serif; // 글꼴 설정
+}
+
+ul,li{
+    list-style: none; // 리스트 점 제거
+    margin: 0px; // 바깥 여백 제거
+    padding: 0px; // 안쪽 여백 제거
+}
+
+
+
+
+.container{
+    background-color: #3B3B3B;
+    height:300px;
+    padding:20px;
+    box-sizing: border-box;
+    display:flex;
+    margin-bottom:20px;
+    .box{
+        height:100%;
+        font-size:20px;
+    }
+   
+    .red_box{
+        width:50%;
+        background-color: red;;
+    }
+    .blue_box{
+        flex:1;
+        background-color: blue;;
+    }
+}
+.container.ct2{
+    .red_box{
+        width:40%;
+    }
+}
+.container.ct3{
+    .red_box{
+        width:200px;
+    }
+}
+.container.ct4{
+    .red_box{
+        width:initial;
+        flex:1;
+    }
+    .gray_box{
+        flex:1;
+        background-color: gray;;
+    }
+}

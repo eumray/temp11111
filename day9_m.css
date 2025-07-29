@@ -1,0 +1,37 @@
+@media (max-width: 1000px) {
+  .mobile_none {
+    display: none;
+  }
+  .header {
+    top: 6px;
+    left: 15px;
+    right: 15px;
+  }
+  .header .logo {
+    transform: translate(-15px, -5px);
+  }
+  .header .logo img {
+    width: 92px;
+  }
+  .header .menu {
+    font-size: 17px;
+  }
+  .header .lan_select {
+    font-size: 17px;
+  }
+  .concept_items {
+    padding: 70px 15px;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .concept_items .concept_item {
+    width: 100%;
+  }
+  .concept_items .concept_item .concept_img img {
+    height: 200px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+  }
+}/*# sourceMappingURL=day9_m.css.map */

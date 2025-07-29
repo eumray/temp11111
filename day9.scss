@@ -1,0 +1,80 @@
+body {
+    margin: 0px; // 바깥 여백 제거
+    padding: 0px; // 안쪽 여백 제거
+    font-family: "Inter", sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+ul,
+li {
+    list-style: none; // 리스트 점 제거
+    margin: 0px; // 바깥 여백 제거
+    padding: 0px; // 안쪽 여백 제거
+}
+
+.header{
+    position: fixed;
+    z-index: 999;
+    left:30px;
+    right:30px;
+    top:15px;
+    display:flex;
+    justify-content: space-between;
+    align-items: start;
+    
+    .menu{
+        display:flex;
+        font-size:22px;
+        font-weight:700;
+        text-transform: uppercase;
+        gap:12px;
+        position: absolute;
+        top:0px;
+        left:50%;
+        transform: translateX(-50%);
+    }
+    .lan_select{
+        display:flex;
+        align-items: center;
+        font-size:22px;
+        font-weight:700;
+        gap:5px;
+        
+        
+    }
+}
+.concept_items{
+    display:flex;
+    justify-content: space-between;;
+    padding:130px 30px;
+    box-sizing: border-box;
+    .concept_item{
+        width:26%;
+       
+        .concept_img{
+             position: relative;
+            img{
+                width:100%;
+            }
+            .concept_keyword{
+                position: absolute;
+                left:50%;
+                top:50%;
+                transform: translate(-50%, -50%);
+                font-size:18px;
+                color:#fff;
+                font-weight:500;
+                mix-blend-mode: difference;
+            }
+
+        }
+        .concept_desc{
+            margin-top:10px;
+            font-size:18px;
+            line-height: 21px;;
+        }
+    }
+
+}
+
